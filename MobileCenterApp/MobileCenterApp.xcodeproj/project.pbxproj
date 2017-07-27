@@ -147,7 +147,7 @@
 					5205358E1F29C47E002B17E6 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = L3T5WED2PS;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					520535A21F29C47E002B17E6 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -343,15 +343,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Asiri Jayasundara (4LFZP6DHHB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = L3T5WED2PS;
 				INFOPLIST_FILE = MobileCenterApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnhancock.MobileCenterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnhancock.mylifenow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "fb750f42-04e8-4928-8d4e-7bc5fc9b537d";
+				PROVISIONING_PROFILE_SPECIFIER = MyLifeNow_AdHoc_Provisioning_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -360,16 +360,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Asiri Jayasundara (4LFZP6DHHB)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JOHN HANCOCK FINANCIAL SERVICES, INC.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = L3T5WED2PS;
 				INFOPLIST_FILE = MobileCenterApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnhancock.MobileCenterApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnhancock.mylifenow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "fb750f42-04e8-4928-8d4e-7bc5fc9b537d";
+				PROVISIONING_PROFILE_SPECIFIER = MyLifeNow_AdHoc_Provisioning_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
