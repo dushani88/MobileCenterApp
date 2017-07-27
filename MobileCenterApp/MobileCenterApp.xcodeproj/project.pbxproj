@@ -343,7 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Asiri Jayasundara (4LFZP6DHHB)";
 				DEVELOPMENT_TEAM = L3T5WED2PS;
 				INFOPLIST_FILE = MobileCenterApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
@@ -360,8 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Asiri Jayasundara (4LFZP6DHHB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JOHN HANCOCK FINANCIAL SERVICES, INC.";
 				DEVELOPMENT_TEAM = L3T5WED2PS;
 				INFOPLIST_FILE = MobileCenterApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
